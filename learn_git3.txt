@@ -20,6 +20,10 @@
 
 
 
+
+
+
+campare commited file version with change made in file before commiting
 8) git diff HEAD
 8.1) git diff(diffrence beetween two change before  commiting ) < file name >
 8.2) git diff --cached < file name > if we addded file in staged area
