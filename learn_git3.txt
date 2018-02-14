@@ -1,0 +1,84 @@
+1) git init
+
+2) git status
+
+3) git add --file_name--
+3.1) git add <all the file name>
+3.2) git add --all
+3.3) git add &.txt (adding all text file)
+3.4) git add folder/*.txt (if file within some folder)
+
+4) git commit -m "discription of some file "
+
+5) git log (shows history what we have changed)
+
+6) git remote add origin https://........
+
+
+
+
+
+
+
+8) git diff HEAD
+8.1) git diff(diffrence beetween two change before  commiting ) < file name >
+8.2) git diff --cached < file name > if we addded file in staged area
+
+9) git diff --staged
+
+10) git branch clean_up
+
+11) git checkout clean_up
+
+12) git rm '*.txt'
+
+13) git  config --global user.name "username"    git config --global user.email ------------
+
+14) git config --global color.ui true ( for command line color)
+
+15) git config --unset-all --global user.name
+	git config --unset-all --global user.email  (for log out from git command)
+
+after 13 and 14 step move in folder where u want to make projct  with command --- git init
+
+16) git remote add origin https://github.com/rambhairao/First_word.git
+
+17) git remote -v (verify git remote repo version)
+
+18) git clne ---repo url----
+
+7) git push -u origin master (then u can push into repo file)
+7.1) git push origin master
+7.2) git pull origin master
+
+19) git remote add origin https://xxxx@bitbucket.org/xxxx/xxxx.git
+
+20) git branch
+
+
+
+//  compare the working directory with local repository.
+    git diff HEAD [filename]
+
+    // compare the working directory with index.
+    git diff [filename]
+
+    // compare the index with local repository.
+    git diff --cached [filename]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
